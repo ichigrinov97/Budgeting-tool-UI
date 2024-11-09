@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 40px;
+    width: 1440px;
+    margin: auto;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+    padding-top: 36px;
+
+}
+
+.links {
+    display: flex;
+    gap: 60px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+header button {
+    width: 132px;
+    height: 58px;
+    top: 36px;
+    left: 1226px;
+    border-radius: 7px;
+    background: #BC8AFC;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
+
+.high {
+    display: flex;
+    padding: 221px 0;
+    align-items: center;
+    background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+}
+
+main .left-arrow h1 {
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+
+}
+
+main .left-arrow .par {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 628px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+main .left-arrow button {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 32px;
+    gap: 10px;
+    padding: 12px 24px;
+    background: #BC8AFC;
+    border: 0px;
+    width: 212px;
+    height: 58px;
+}
+
+.high button .but {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+
+
+}
+
+.high .left-arrow button img {
+    width: 22px;
+    height: 22px;
+
+
+}
+
+
+
+.about .modal {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -80px;
+    background-color: #FFFFFF;
+    width: 90%;
+    box-shadow: 0px 2px 10px 0px #00000026;
+    border-radius: 16px;
+    padding-top: 51px;
+    padding-bottom: 47px;
+    margin: auto;
+
+}
+
+.about .modal .users h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1F262E;
+
+
+}
+
+.about .modal .users h1 span {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #BC8AFC;
+
+}
+
+.about .modal .trans h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1F262E;
+
+
+}
+
+.about .modal .trans h1 span {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #BC8AFC;
+
+}
+
+.about .modal .count h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1F262E;
+
+
+}
+
+.about .modal .count h1 span {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #BC8AFC;
+
+}
+
+.about .modal p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1F262E;
+
+
+}
+
+.about .info {
+    display: flex;
+    justify-content: center;
+    gap: 174px;
+    padding-bottom: 107px;
+    padding-left: 65px;
+    padding-top: 80px;
+
+
+}
+
+.about .info .photo img {
+    width: 413px;
+    height: 609px;
+
+
+}
+
+.info .about-god {
+    padding-right: 97px;
+    padding-top: 55px;
+}
+
+.about .info .about-god h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+
+
+}
+
+.about .info .about-god .god {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 571px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.info .about-god button {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    gap: 10px;
+    padding: 12px 24px;
+    background: #BC8AFC;
+    border: 0px;
+    width: 212px;
+    height: 58px;
+    margin-top: 16px;
+
+}
+
+.about-god .but {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+
+
+}
+
+.info .about-god img {
+    width: 22px;
+    height: 22px;
+
+
+}
+
+.service {
+    background: conic-gradient(from -38.14deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
+    margin-top: 107px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 265px;
+    background: conic-gradient(from -38.14deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
+
+
+}
+
+.service h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 75.84px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.service .table .card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #190422;
+    background-color: #190422;
+    border-radius: 100%;
+    margin-bottom: 36px;
+
+}
+
+.service .table .card-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #190422;
+    background-color: #190422;
+    border-radius: 100%;
+    margin-bottom: 36px;
+
+}
+
+.service .table .card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #190422;
+    background-color: #190422;
+    border-radius: 100%;
+    margin-bottom: 36px;
+
+}
+
+.service .table .card-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #190422;
+    background-color: #190422;
+    border-radius: 100%;
+    margin-bottom: 36px;
+
+}
+
+.service .table h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1F262E;
+    width: 477px;
+    margin-bottom: 12px;
+
+
+
+}
+
+.service .table p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    width: 477px;
+}
+
+.service .table {
+    display: grid;
+    grid-template-columns: 477px 477px;
+    grid-column-gap: 173px;
+    grid-row-gap: 40px;
+
+}
+
+
+.apps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #190422;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 151px;
+
+
+}
+
+.apps .stores h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    padding-top: 107px;
+    margin-bottom: 42px;
+}
+
+.apps .modal-stat {
+    position: absolute;
+    left: 956px;
+    right: 79px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.apps .stores .butt {
+    display: flex;
+    gap: 38px;
+}
+
+.apps .stores .google {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 205px;
+    height: 65px;
+    top: 3158px;
+    gap: 15px;
+    left: 80px;
+    border-radius: 12px;
+    justify-content: center;
+    border: 1px solid black;
+
+
+}
+
+.apps .stores .apple {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 205px;
+    height: 65px;
+    top: 3158px;
+    gap: 15px;
+    left: 80px;
+    border-radius: 12px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.apps .stores .butt .google img {
+    width: 38px;
+    height: 40px;
+}
+
+.apps .stores .butt .google p {
+    font-size: 25px;
+    font-weight: 20;
+    text-align: start;
+}
+
+.apps .stores .butt .apple img {
+    width: 38px;
+    height: 40px;
+}
+
+.apps .stores .butt .apple p {
+    font-size: 16px;
+    font-weight: 20;
+    text-align: start;
+}
+
+.apps .stores .butt .apple p span {
+    font-size: 27px;
+    font-weight: 20;
+    text-align: start;
+}
+
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.benefits .girl img {
+    width: 415px;
+    height: 495px;
+    margin-top: 85px;
+
+
+
+
+}
+
+.benefits .ben {
+    margin-top: 80px;
+
+}
+
+.benefits .ben h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+
+}
+
+.benefits .ben p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 522px;
+    color: #000000;
+    
+
+}
+.marker{
+    margin-top: 16px;
+    
+}
+
+.marker .first {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-top: 16px;
+}
+
+.marker .second {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-top: 16px;
+}
+
+.marker .third {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-top: 16px;
+}
+
+.marker .fours {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-top: 16px;
+}
+
+.marker img {
+    border: 3px solid #BC8AFC;
+    border-radius: 40px;
+    padding: 13px 10px 13px 10px;
+
+}
