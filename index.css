@@ -7,9 +7,7 @@ body {
     padding: 0 40px;
     width: 1440px;
     margin: auto;
-
 }
-
 
 header {
     display: flex;
@@ -17,7 +15,6 @@ header {
     align-items: center;
     background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
     padding-top: 36px;
-
 }
 
 .links {
@@ -43,8 +40,6 @@ header button {
     font-family: Poppins;
     font-size: 22px;
     font-weight: 500;
-
-
 }
 
 .high {
@@ -63,7 +58,6 @@ main .left-arrow h1 {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
-
 }
 
 main .left-arrow .par {
@@ -97,18 +91,12 @@ main .left-arrow button {
     font-size: 22px;
     font-weight: 500;
     color: #000000;
-
-
 }
 
 .high .left-arrow button img {
     width: 22px;
     height: 22px;
-
-
 }
-
-
 
 .about .modal {
     display: flex;
@@ -122,7 +110,6 @@ main .left-arrow button {
     padding-top: 51px;
     padding-bottom: 47px;
     margin: auto;
-
 }
 
 .about .modal .users h1 {
@@ -134,8 +121,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #1F262E;
-
-
 }
 
 .about .modal .users h1 span {
@@ -147,7 +132,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #BC8AFC;
-
 }
 
 .about .modal .trans h1 {
@@ -159,8 +143,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #1F262E;
-
-
 }
 
 .about .modal .trans h1 span {
@@ -172,7 +154,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #BC8AFC;
-
 }
 
 .about .modal .count h1 {
@@ -184,8 +165,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #1F262E;
-
-
 }
 
 .about .modal .count h1 span {
@@ -197,7 +176,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #BC8AFC;
-
 }
 
 .about .modal p {
@@ -209,8 +187,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #1F262E;
-
-
 }
 
 .about .info {
@@ -220,15 +196,11 @@ main .left-arrow button {
     padding-bottom: 107px;
     padding-left: 65px;
     padding-top: 80px;
-
-
 }
 
 .about .info .photo img {
     width: 413px;
     height: 609px;
-
-
 }
 
 .info .about-god {
@@ -245,8 +217,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #000000;
-
-
 }
 
 .about .info .about-god .god {
@@ -273,7 +243,6 @@ main .left-arrow button {
     width: 212px;
     height: 58px;
     margin-top: 16px;
-
 }
 
 .about-god .but {
@@ -281,15 +250,11 @@ main .left-arrow button {
     font-size: 22px;
     font-weight: 500;
     color: #000000;
-
-
 }
 
 .info .about-god img {
     width: 22px;
     height: 22px;
-
-
 }
 
 .service {
@@ -299,8 +264,6 @@ main .left-arrow button {
     z-index: 1;
     margin-bottom: 265px;
     background: conic-gradient(from -38.14deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
-
-
 }
 
 .service h1 {
@@ -325,7 +288,6 @@ main .left-arrow button {
     background-color: #190422;
     border-radius: 100%;
     margin-bottom: 36px;
-
 }
 
 .service .table .card-2 {
@@ -338,7 +300,6 @@ main .left-arrow button {
     background-color: #190422;
     border-radius: 100%;
     margin-bottom: 36px;
-
 }
 
 .service .table .card-3 {
@@ -351,7 +312,6 @@ main .left-arrow button {
     background-color: #190422;
     border-radius: 100%;
     margin-bottom: 36px;
-
 }
 
 .service .table .card-4 {
@@ -364,7 +324,6 @@ main .left-arrow button {
     background-color: #190422;
     border-radius: 100%;
     margin-bottom: 36px;
-
 }
 
 .service .table h2 {
@@ -378,9 +337,6 @@ main .left-arrow button {
     color: #1F262E;
     width: 477px;
     margin-bottom: 12px;
-
-
-
 }
 
 .service .table p {
@@ -400,9 +356,7 @@ main .left-arrow button {
     grid-template-columns: 477px 477px;
     grid-column-gap: 173px;
     grid-row-gap: 40px;
-
 }
-
 
 .apps {
     display: flex;
@@ -412,8 +366,6 @@ main .left-arrow button {
     position: relative;
     z-index: 0;
     padding-bottom: 151px;
-
-
 }
 
 .apps .stores h1 {
@@ -455,8 +407,6 @@ main .left-arrow button {
     border-radius: 12px;
     justify-content: center;
     border: 1px solid black;
-
-
 }
 
 .apps .stores .apple {
@@ -506,23 +456,16 @@ main .left-arrow button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-
 }
 
 .benefits .girl img {
     width: 415px;
     height: 495px;
     margin-top: 85px;
-
-
-
-
 }
 
 .benefits .ben {
     margin-top: 80px;
-
 }
 
 .benefits .ben h1 {
@@ -534,7 +477,6 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #000000;
-
 }
 
 .benefits .ben p {
@@ -547,12 +489,10 @@ main .left-arrow button {
     text-decoration-skip-ink: none;
     width: 522px;
     color: #000000;
-    
-
 }
-.marker{
+
+.marker {
     margin-top: 16px;
-    
 }
 
 .marker .first {
@@ -587,5 +527,221 @@ main .left-arrow button {
     border: 3px solid #BC8AFC;
     border-radius: 40px;
     padding: 13px 10px 13px 10px;
+}
 
+.comments h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 151px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.comments .block {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.comments .block .left-butt {
+    border: 3px solid #BC8AFC;
+    border-radius: 40px;
+    padding: 13px 18px 11px 15px;
+}
+
+.comments .block .right-butt {
+    border: 3px solid #BC8AFC;
+    border-radius: 40px;
+    padding: 13px 15px 11px 18px;
+}
+
+.block .london {
+    width: 522px;
+    border-radius: 28px;
+    border: 1px;
+    box-shadow: 0px 0px 12px 0px #00000033;
+    margin-left: 46px;
+    padding: 24px 24px 34px 24px;
+}
+
+.block .london h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.comments .block .london .lo {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 474px;
+}
+
+.block .london .shevin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block .london .shevin .about-cr {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    gap: 24px;
+}
+
+block .london .shevin .about-cr .name {
+    width: 181px;
+    height: 64px;
+}
+
+.block .london .shevin .about-cr .name h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.block .london .shevin .about-cr .name p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+
+
+.block .new {
+    width: 522px;
+    border-radius: 28px;
+    border: 1px;
+    box-shadow: 0px 0px 12px 0px #00000033;
+    margin-right: 43px;
+    margin-left: 21px;
+    padding: 24px 24px 36px 24px;
+}
+
+.block .new h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.comments .block .new .lo-1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 474px;
+}
+
+
+.block .new .nima {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block .new .nima .about-cr {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    gap: 24px;
+}
+
+block .new .nima .about-cr .name {
+    width: 181px;
+    height: 64px;
+}
+
+.block .new .nima .about-cr .name h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.block .new .nima .about-cr .name p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+footer {
+    background: #190422;
+    padding-top: 72px;
+}
+
+footer img {
+    padding-bottom: 26px;
+}
+
+footer .links {
+    display: flex;
+    gap: 33px;
+    margin-top: 26px;
+    margin-bottom: 41px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+footer .social {
+    display: flex;
+    gap: 21px;
+    padding-bottom: 20px;
 }
