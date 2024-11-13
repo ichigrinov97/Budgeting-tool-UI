@@ -4,21 +4,81 @@
 }
 
 body {
+    background-color: #FFFFFF;
+}
+
+.contain-header {
     padding: 0 40px;
-    width: 1440px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain-high {
+    padding: 0 40px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+}
+
+.contain-about {
+    padding: 0 40px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.contain-service {
+    padding: 0 40px;
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+.contain-apps {
+    padding: 0 40px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #190422;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 151px;
+}
+
+.contain-benefits {
+    padding: 0 40px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contain-comments {
+    padding: 0 40px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.contain-footer {
+    padding: 0 40px;
+    max-width: 1440px;
     margin: auto;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
     padding-top: 36px;
+    padding-bottom: 221px;
 }
 
 .links {
     display: flex;
+    align-items: center;
     gap: 60px;
     font-family: Poppins;
     font-size: 20px;
@@ -44,12 +104,16 @@ header button {
 
 .high {
     display: flex;
-    padding: 221px 0;
+    padding-bottom: 221px ;
     align-items: center;
     background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
 }
 
-main .left-arrow h1 {
+.contain-high .left-arrow {
+    max-width: 60%;
+}
+
+main .high .contain-high .left-arrow h1 {
     font-family: Poppins;
     font-size: 80px;
     font-weight: 600;
@@ -58,6 +122,7 @@ main .left-arrow h1 {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
+    max-width: 631px;
 }
 
 main .left-arrow .par {
@@ -68,7 +133,7 @@ main .left-arrow .par {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 628px;
+    max-width: 628px;
     color: #FFFFFF;
     margin-top: 32px;
 }
@@ -205,7 +270,7 @@ main .left-arrow button {
 
 .info .about-god {
     padding-right: 97px;
-    padding-top: 55px;
+    max-width: 611px;
 }
 
 .about .info .about-god h1 {
@@ -227,7 +292,6 @@ main .left-arrow button {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 571px;
     color: #000000;
     margin-top: 16px;
 }
@@ -258,12 +322,11 @@ main .left-arrow button {
 }
 
 .service {
-    background: conic-gradient(from -38.14deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
     margin-top: 107px;
     position: relative;
     z-index: 1;
     margin-bottom: 265px;
-    background: conic-gradient(from -38.14deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
+    background: conic-gradient(from 38deg at 72% 78%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
 }
 
 .service h1 {
@@ -335,7 +398,7 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #1F262E;
-    width: 477px;
+    max-width: 477px;
     margin-bottom: 12px;
 }
 
@@ -348,24 +411,22 @@ main .left-arrow button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #000000;
-    width: 477px;
+    max-width: 477px;
 }
 
 .service .table {
     display: grid;
-    grid-template-columns: 477px 477px;
+    grid-template-columns: auto auto;
     grid-column-gap: 173px;
     grid-row-gap: 40px;
 }
 
 .apps {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: #190422;
-    position: relative;
-    z-index: 0;
-    padding-bottom: 151px;
+}
+
+.apps .stores {
+    max-width: 60%;
 }
 
 .apps .stores h1 {
@@ -379,12 +440,12 @@ main .left-arrow button {
     color: #FFFFFF;
     padding-top: 107px;
     margin-bottom: 42px;
+
 }
 
 .apps .modal-stat {
     position: absolute;
-    left: 956px;
-    right: 79px;
+    right: 0px;
     bottom: 0px;
     z-index: 1;
 }
@@ -452,10 +513,8 @@ main .left-arrow button {
     text-align: start;
 }
 
-.benefits {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.benefits .contain-benefits {
+    gap: 72px;
 }
 
 .benefits .girl img {
@@ -466,6 +525,8 @@ main .left-arrow button {
 
 .benefits .ben {
     margin-top: 80px;
+    max-width: 522px;
+
 }
 
 .benefits .ben h1 {
@@ -487,7 +548,6 @@ main .left-arrow button {
     text-align: justified;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 522px;
     color: #000000;
 }
 
@@ -744,4 +804,87 @@ footer .social {
     display: flex;
     gap: 21px;
     padding-bottom: 20px;
+}
+
+@media(max-width:1366px) {
+    .contain-high {
+        align-items: center;
+        justify-content: space-between;
+        gap: 17px;
+    }
+
+    main .high .contain-high .left-arrow {
+        max-width: 370px;
+        & h1 {
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 57.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+
+        & p {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 31.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+
+    .contain-high .right-arrow img {
+        width: 347px;
+        height: 396px;
+
+
+    }
+
+    .contain-benefits .girl img {
+        width: 400px;
+        height: 500px;
+
+
+    }
+
+    .contain-benefits .ben {
+        max-width: 365px;
+    }
+
+    .contain-comments .block {
+        flex-direction: column;
+
+    }
+
+    .contain-comments .new {
+        display: none;
+    }
+
+    footer .contain-footer .links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about .info .photo img {
+        width: 295px;
+        height: 430px;
+    }
+    .about .info .about-god{
+        max-width :367px; 
+    }
+
+    .about .info .about-god h1 {
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 39.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
 }
